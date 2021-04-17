@@ -89,11 +89,38 @@ Example: ПРивет банан Банан яблоко груши банАн �
 
 b = a.upper()
 
-# print(b) 
+# # print(b) 
 
-c = b.replace('БАНАН', "Яблоко")
-print(c)
+# c = b.replace('БАНАН', "Яблоко")
+# print(c)
 
+# password1 = '2222'#Jack
+# password2 = '3333'#Nick
+
+# user_input = input("Введи пароль")
+
+# if user_input == password1:
+#   print('Hello Jack')
+# elif user_input == password2:
+#   print('hello Nick')
+# else:
+#   print('wrong password!')
+
+a = input("Введите первое число\n")
+
+b = input("Введите второе число\n")
+
+action = input("Введите действие + , - , *, /")
+
+if action == "+":
+	print(int(a)+int(b))
+elif action == "-":
+	print(int(a)-int(b))
+elif action == "*":
+	print(int(a)*int(b))
+elif action == "/":
+	print(int(a)/int(b))
+	
 
 
 
