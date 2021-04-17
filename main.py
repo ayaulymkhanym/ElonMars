@@ -76,7 +76,10 @@
 # c = int(c)
 # d = a * b * c
 # print(d)
-a = input("Радиус\n")
-S = float(a)**2 * 3.14
-print(float(S))
+# a = input("Радиус\n")
+# S = float(a)**2 * 3.14
+# print(float(S))
+name = input("Введи имя")
+a = f"Привет{name}"
+print(a)
 
