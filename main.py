@@ -83,11 +83,11 @@
 # a = f"Привет{name}"
 # print(a)
 
-a = '''Входные данные текст
-банан заменить на большие буквы 
-Example: ПРивет банан Банан яблоко груши банАн БАНАН'''
+# a = '''Входные данные текст
+# банан заменить на большие буквы 
+# Example: ПРивет банан Банан яблоко груши банАн БАНАН'''
 
-b = a.upper()
+# b = a.upper()
 
 # # print(b) 
 
@@ -121,19 +121,36 @@ b = a.upper()
 # elif action == "/":
 # 	print(int(a)/int(b))	
 
-Sex = input("Input your sex (female, male):")
-Age = input("Input your age:\n")
-Age = int(Age)
-if Sex == "female" and Age >= 18:
-	print("Come in")
-elif Sex == "male" and Age >= 21:
-	print("Come in")
-elif (Sex == "male" and Age <0) or (Sex == "female" and Age<0):
-	print ("Error")
-else:
-	print("Go home!")
+# Sex = input("Input your sex (female, male):")
+# Age = input("Input your age:\n")
+# Age = int(Age)
+# if Sex == "female" and Age >= 18:
+# 	print("Come in")
+# elif Sex == "male" and Age >= 21:
+# 	print("Come in")
+# elif (Sex == "male" and Age <0) or (Sex == "female" and Age<0):
+# 	print ("Error")
+# else:
+# # 	print("Go home!")
+# d = {
+#   'name' : 'Egor',
+#   'surname': 'EgorUlyKotiBar',
+#   'pas': 123123,
+#   'WW': True,
+#   'array': [12,2,3,24,3],
+#   'dd': {
+#     '2level': 'Egor2',
+#     '2pas': 21312
+#   }
+# }
+
+a = input("vvedite a")
+b = input("vvedite b")
 
 
+a = int(a)+int(b)
+b = int(a) - int(b)
+a = int(a) - int(b)
 
-
-
+print(a)
+print(b)
