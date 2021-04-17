@@ -106,21 +106,33 @@ b = a.upper()
 # else:
 #   print('wrong password!')
 
-a = input("Введите первое число\n")
+# a = input("Введите первое число\n")
 
-b = input("Введите второе число\n")
+# b = input("Введите второе число\n")
 
-action = input("Введите действие + , - , *, /")
+# action = input("Введите действие + , - , *, /")
 
-if action == "+":
-	print(int(a)+int(b))
-elif action == "-":
-	print(int(a)-int(b))
-elif action == "*":
-	print(int(a)*int(b))
-elif action == "/":
-	print(int(a)/int(b))
-	
+# if action == "+":
+# 	print(int(a)+int(b))
+# elif action == "-":
+# 	print(int(a)-int(b))
+# elif action == "*":
+# 	print(int(a)*int(b))
+# elif action == "/":
+# 	print(int(a)/int(b))	
+
+Sex = input("Input your sex (female, male):")
+Age = input("Input your age:\n")
+Age = int(Age)
+if Sex == "female" and Age >= 18:
+	print("Come in")
+elif Sex == "male" and Age >= 21:
+	print("Come in")
+elif (Sex == "male" and Age <0) or (Sex == "female" and Age<0):
+	print ("Error")
+else:
+	print("Go home!")
+
 
 
 
