@@ -144,13 +144,40 @@
 #   }
 # }
 
-a = input("vvedite a")
-b = input("vvedite b")
+# a = input("vvedite a")
+# b = input("vvedite b")
 
 
-a = int(a)+int(b)
-b = int(a) - int(b)
-a = int(a) - int(b)
+# a = int(a)+int(b)
+# b = int(a) - int(b)
+# a = int(a) - int(b)
 
-print(a)
-print(b)
+# print(a)
+# print(b)
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+# # ['apple', 'banana', 'cherry', 'orange']
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[4:])
+# # ["kiwi", "melon", "mango"]
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# thislist[2] = 'KKKKK'
+# fruit = thislist[3]
+# print(thislist)
+# print(fruit)
+# gen = input("Choose your gender\n")
+# age = input("What is your age\n")
+# if int(age) <= 0:
+#   print("Write the correct age")
+#   age = input("What is your age\n")
+
+# gen = str(gen).upper()
+# if (gen == "W" and int(age) >= 18) or (gen == "M" and int(age) >= 21):
+#   print("Ote ber")
+# else:
+#   print("Kait uine")
