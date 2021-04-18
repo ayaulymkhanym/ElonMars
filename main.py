@@ -218,17 +218,40 @@
 
 # fruits = ["apple", "banana", "cherry", "apple", "banana", "cherry", "mango"]
 # for fruit in fruits:
+	# print(fruit)
 
-#   print(fruit)
+# mylist = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
+# mylist2 = mylist
+# mylist2 = mylist2.upper()
+# mylist = mylist.split(' ')
+# mylist2 = mylist2.split(' ')
 
-mylist = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
-mylist2 = mylist
-mylist2 = mylist2.upper()
-mylist = mylist.split(' ')
-mylist2 = mylist2.split(' ')
+# for i in range(0,len(mylist)):
+# 	if mylist2[i] == "BANANA":
+# 		mylist[i]="BANANA"
+# mylist = " ".join(mylist)
+# print(mylist)
 
-for i in range(0,len(mylist)):
-	if mylist2[i] == "BANANA":
-		mylist[i]="BANANA"
-mylist = " ".join(mylist)
-print(mylist)
+# i = 0
+# a = a.split()
+# while i < len(a):
+#   if a[i].lower() == 'banana':
+#     a[i] = 'BANANA'
+#   i += 1
+# a = ' '.join(a)
+# print(a)
+
+
+# for i in range (0,11):
+# 	if i/3 != 3  and i >0:
+# 		print (i)
+
+a = [1,2,3,4,5]
+b = [1,2,10]
+for i in range (0, len(a)):
+	for x in range (0, len(b)):
+		if a[i] == b[x]:
+			y = b[x]
+			z = a[i]
+			print(y,z)
+
