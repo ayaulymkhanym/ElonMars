@@ -29,18 +29,28 @@
 # a = 123
 # my_func(a, c=9)
 # PASS - Propusti 
-def age(a):
-	if a >17:
-		print("Come in")
-	else:
-		print("Go out")
 
 
-a = input("Write your age\n")
-try:
-	a = int(a)
+# a = input("Write your age\n")
+# try:
+# 	a = int(a)
+# 	age(a)
+# except Exception as e: 
+# 	print("Please write your age")
+# def age(a):
+# 	if a >17:
+# 		print("Come in")
+# 	else:
+# 		print("Go out")
 
-	age(a)
-except Exception as e: 
-	print("Please write your age")
+# import new_module as nmd
+# print(nmd.a)
+# nmd.age(9,7)
 
+import arithmetic as ar
+import str_work as sw 
+
+print(ar.plus(1,3))
+print(ar.minus(4,3))
+
+print(sw.add_str('asd', 'www'))
