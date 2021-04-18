@@ -243,15 +243,21 @@
 
 
 # for i in range (0,11):
-# 	if i/3 != 3  and i >0:
-# 		print (i)
+# # 	if i/3 != 3  and i >0:
+# # 		print (i)
 
-a = [1,2,3,4,5]
-b = [1,2,10]
-for i in range (0, len(a)):
-	for x in range (0, len(b)):
-		if a[i] == b[x]:
-			y = b[x]
-			z = a[i]
-			print(y,z)
+# a = [1,2,3,4,5]
+# b = [1,2,10]
+# for i in range (0, len(a)):
+# 	for x in range (0, len(b)):
+# 		if a[i] == b[x]:
+# 			y = b[x]
+			# print(y)= 1 
+a  = input("Write number") 
+try: 
+	a = int(a)
+	print(a*10)
+except Exception as e:
+	print("Please write number")
 
+# finally:
