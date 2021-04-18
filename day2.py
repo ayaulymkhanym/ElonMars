@@ -76,17 +76,40 @@
 # 	print(i,sheet.cell(row=i, column=1).value)
 # wb.save('zzzz.xlsx')
 
-from openpyxl import load_workbook
-wb = load_workbook('salary.xlsm')
+# from openpyxl import load_workbook
+# wb = load_workbook('salary.xlsm')
 
-print(wb.sheetnames)
+# print(wb.sheetnames)
 
-sheet = wb.get_sheet_by_name('Database')
-sum1 = 0
-sum1 = int(sum1)
-for i in range(4,25):
-	a = sheet.cell(row=i, column=11).value
-	sum1 = sum1 + int(a)
+# sheet = wb.get_sheet_by_name('Database')
+# sum1 = 0
+# sum1 = int(sum1)
+# for i in range(4,25):
+# 	a = sheet.cell(row=i, column=11).value
+# 	sum1 = sum1 + int(a)
 
-print(sum1)
-	# # wb.save('Salar.xlsx')
+# print(sum1)
+# 	# # wb.save('Salar.xlsx')
+
+# GET AND POST REQUESTS
+import requests
+import json
+
+r = requests.get("https://jsonplaceholder.typicode.com/posts")
+response = r.text
+response = json.loads(response)
+
+# for i in response:
+# 	if i['userId'] == 1:
+# 		print(i['title'])
+# for i in response:
+# 	if i['title'] == "non est facere":
+# 		print(i['body'])
+
+r = requests.get("https://jsonplaceholder.typicode.com/users")
+response = r.text
+response = json.loads(response)
+for i in response:
+ 	if i['id'] == 4:
+ 		print(i['address']['geo']['lat'])
+""
