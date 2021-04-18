@@ -253,11 +253,9 @@
 # 		if a[i] == b[x]:
 # 			y = b[x]
 			# print(y)= 1 
-a  = input("Write number") 
-try: 
-	a = int(a)
-	print(a*10)
-except Exception as e:
-	print("Please write number")
-
-# finally:
+# a  = input("Write number") 
+# try: 
+# 	a = int(a)
+# 	print(a*10)
+# except Exception as e:
+# 	print(e, "Please write number")
