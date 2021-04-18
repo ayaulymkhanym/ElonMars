@@ -47,10 +47,46 @@
 # print(nmd.a)
 # nmd.age(9,7)
 
-import arithmetic as ar
-import str_work as sw 
+# import arithmetic as ar
+# import str_work as sw 
+# from arithmetic import (plus,minus)
+# print(ar.plus(1,3))
+# print(ar.minus(4,3))
 
-print(ar.plus(1,3))
-print(ar.minus(4,3))
+# print(sw.add_str('asd', 'www'))
 
-print(sw.add_str('asd', 'www'))
+# # DATE TIME CALENDAR
+# x = datetime.datetime(2020, 5, 17)
+# print(x)
+# print(x.strftime("%d.%m.%Y %H:%M"))
+
+# from openpyxl import load_workbook
+# wb = load_workbook('asd.xlsx')
+
+# print(wb.sheetnames)
+
+# sheet = wb.get_sheet_by_name('users')
+# print(sheet)
+# sheet['A2'].value='QQQQ'
+# print(sheet['A2'].column)
+# print(sheet['A2'].row)
+# print(sheet['A2'].coordinate)
+
+# for i in range(1,4):
+# 	print(i,sheet.cell(row=i, column=1).value)
+# wb.save('zzzz.xlsx')
+
+from openpyxl import load_workbook
+wb = load_workbook('salary.xlsm')
+
+print(wb.sheetnames)
+
+sheet = wb.get_sheet_by_name('Database')
+sum1 = 0
+sum1 = int(sum1)
+for i in range(4,25):
+	a = sheet.cell(row=i, column=11).value
+	sum1 = sum1 + int(a)
+
+print(sum1)
+	# # wb.save('Salar.xlsx')
