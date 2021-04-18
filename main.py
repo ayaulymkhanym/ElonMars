@@ -181,3 +181,54 @@
 #   print("Ote ber")
 # else:
 #   print("Kait uine")
+# a = [5,4,3,2,8,6,7]
+# a.sort()
+# print(a)
+
+# b = ['c','b','y','d']
+# b.sort()
+# print(b)
+
+# c = ["gy", "yud", "abc", "rys"]
+# c.sort()
+# print(c)
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# i = 0
+# while i < len(thislist):
+#   # print(thislist[i])
+
+#   if thislist[i] == 'cherry':
+#     print(thislist[i])
+#   else:
+#     print('other fruit')
+#   i += 1#i = i + 1
+
+#   i = 0
+# while i < 2:
+#   j = 0
+#   while j < 2:
+#     print('this is I', i)
+#     print('this is J', j)
+#     j += 1
+#   i += 1
+# print(j)
+
+# thislist = ["apple", "banana", "cherry", mango"]
+
+# fruits = ["apple", "banana", "cherry", "apple", "banana", "cherry", "mango"]
+# for fruit in fruits:
+
+#   print(fruit)
+
+mylist = '''asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA'''
+mylist2 = mylist
+mylist2 = mylist2.upper()
+mylist = mylist.split(' ')
+mylist2 = mylist2.split(' ')
+
+for i in range(0,len(mylist)):
+	if mylist2[i] == "BANANA":
+		mylist[i]="BANANA"
+mylist = " ".join(mylist)
+print(mylist)
